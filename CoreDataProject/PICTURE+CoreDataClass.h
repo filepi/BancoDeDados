@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PICTURE : NSManagedObject
 
++(PICTURE *)newPic:(NSDictionary *)elements;
+
 @end
 
 NS_ASSUME_NONNULL_END
