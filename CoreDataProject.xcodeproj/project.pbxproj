@@ -14,6 +14,10 @@
 		81DEAA891F48A967005B539B /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81DEAA871F48A967005B539B /* CoreDataProject.xcdatamodeld */; };
 		81DEAA8B1F48A967005B539B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81DEAA8A1F48A967005B539B /* Assets.xcassets */; };
 		81DEAA8E1F48A967005B539B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81DEAA8C1F48A967005B539B /* LaunchScreen.storyboard */; };
+		81DEAA9E1F48ADB4005B539B /* PRODUCT+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DEAA971F48ADB4005B539B /* PRODUCT+CoreDataClass.m */; };
+		81DEAA9F1F48ADB4005B539B /* PRODUCT+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DEAA991F48ADB4005B539B /* PRODUCT+CoreDataProperties.m */; };
+		81DEAAA01F48ADB4005B539B /* PICTURE+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DEAA9B1F48ADB4005B539B /* PICTURE+CoreDataClass.m */; };
+		81DEAAA11F48ADB4005B539B /* PICTURE+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DEAA9D1F48ADB4005B539B /* PICTURE+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,14 @@
 		81DEAA8A1F48A967005B539B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81DEAA8D1F48A967005B539B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81DEAA8F1F48A967005B539B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81DEAA961F48ADB4005B539B /* PRODUCT+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PRODUCT+CoreDataClass.h"; sourceTree = "<group>"; };
+		81DEAA971F48ADB4005B539B /* PRODUCT+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PRODUCT+CoreDataClass.m"; sourceTree = "<group>"; };
+		81DEAA981F48ADB4005B539B /* PRODUCT+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PRODUCT+CoreDataProperties.h"; sourceTree = "<group>"; };
+		81DEAA991F48ADB4005B539B /* PRODUCT+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PRODUCT+CoreDataProperties.m"; sourceTree = "<group>"; };
+		81DEAA9A1F48ADB4005B539B /* PICTURE+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PICTURE+CoreDataClass.h"; sourceTree = "<group>"; };
+		81DEAA9B1F48ADB4005B539B /* PICTURE+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PICTURE+CoreDataClass.m"; sourceTree = "<group>"; };
+		81DEAA9C1F48ADB4005B539B /* PICTURE+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PICTURE+CoreDataProperties.h"; sourceTree = "<group>"; };
+		81DEAA9D1F48ADB4005B539B /* PICTURE+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PICTURE+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 		81DEAA7A1F48A967005B539B /* CoreDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				81DEAA951F48AD33005B539B /* Model */,
 				81DEAA7E1F48A967005B539B /* AppDelegate.h */,
 				81DEAA7F1F48A967005B539B /* AppDelegate.m */,
 				81DEAA811F48A967005B539B /* ViewController.h */,
@@ -80,6 +93,21 @@
 				81DEAA7C1F48A967005B539B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81DEAA951F48AD33005B539B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				81DEAA961F48ADB4005B539B /* PRODUCT+CoreDataClass.h */,
+				81DEAA971F48ADB4005B539B /* PRODUCT+CoreDataClass.m */,
+				81DEAA981F48ADB4005B539B /* PRODUCT+CoreDataProperties.h */,
+				81DEAA991F48ADB4005B539B /* PRODUCT+CoreDataProperties.m */,
+				81DEAA9A1F48ADB4005B539B /* PICTURE+CoreDataClass.h */,
+				81DEAA9B1F48ADB4005B539B /* PICTURE+CoreDataClass.m */,
+				81DEAA9C1F48ADB4005B539B /* PICTURE+CoreDataProperties.h */,
+				81DEAA9D1F48ADB4005B539B /* PICTURE+CoreDataProperties.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,8 +182,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				81DEAA831F48A967005B539B /* ViewController.m in Sources */,
+				81DEAA9F1F48ADB4005B539B /* PRODUCT+CoreDataProperties.m in Sources */,
 				81DEAA801F48A967005B539B /* AppDelegate.m in Sources */,
+				81DEAAA01F48ADB4005B539B /* PICTURE+CoreDataClass.m in Sources */,
+				81DEAA9E1F48ADB4005B539B /* PRODUCT+CoreDataClass.m in Sources */,
 				81DEAA891F48A967005B539B /* CoreDataProject.xcdatamodeld in Sources */,
+				81DEAAA11F48ADB4005B539B /* PICTURE+CoreDataProperties.m in Sources */,
 				81DEAA7D1F48A967005B539B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
