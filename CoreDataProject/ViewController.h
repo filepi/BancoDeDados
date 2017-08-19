@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *txtName;
+@property (weak, nonatomic) IBOutlet UITextField *txtBrand;
+@property (weak, nonatomic) IBOutlet UITextField *txtQuantity;
 
 @end
 

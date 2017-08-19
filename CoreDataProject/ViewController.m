@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PRODUCT+CoreDataClass.h"
 
 @interface ViewController ()
 
@@ -25,5 +26,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btnCadastrar:(id)sender
+{
+    NSDictionary *dic = @{@"name": self.txtName.text,
+                          @"brand" : self.txtBrand.text,
+                          @"quantity": self.txtQuantity.text};
+    
+    [PRODUCT newProduct:dic];
+    self.txtName.text = @"";
+    self.txtBrand.text =@"";
+    self.txtQuantity.text=@"";
+    
+    
+}
 
 @end

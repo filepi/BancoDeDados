@@ -42,4 +42,13 @@
     return prod;
 }
 
++(NSArray *) allProducts {
+    
+    AppDelegate *appDelegate = (AppDelegate *)UIApplication.sharedApplication.delegate;
+    NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"PRODUCT"];
+    NSError *error;
+    NSArray *produtos = [appDelegate.persistentContainer.viewContext executeFetchRequest:request error:&error];
+    return produtos ;
+}
+
 @end

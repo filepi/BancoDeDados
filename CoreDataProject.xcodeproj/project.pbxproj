@@ -18,6 +18,7 @@
 		81DEAA9F1F48ADB4005B539B /* PRODUCT+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DEAA991F48ADB4005B539B /* PRODUCT+CoreDataProperties.m */; };
 		81DEAAA01F48ADB4005B539B /* PICTURE+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DEAA9B1F48ADB4005B539B /* PICTURE+CoreDataClass.m */; };
 		81DEAAA11F48ADB4005B539B /* PICTURE+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DEAA9D1F48ADB4005B539B /* PICTURE+CoreDataProperties.m */; };
+		81DEAAA41F48B591005B539B /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DEAAA31F48B591005B539B /* ListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		81DEAA9B1F48ADB4005B539B /* PICTURE+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PICTURE+CoreDataClass.m"; sourceTree = "<group>"; };
 		81DEAA9C1F48ADB4005B539B /* PICTURE+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PICTURE+CoreDataProperties.h"; sourceTree = "<group>"; };
 		81DEAA9D1F48ADB4005B539B /* PICTURE+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PICTURE+CoreDataProperties.m"; sourceTree = "<group>"; };
+		81DEAAA21F48B591005B539B /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		81DEAAA31F48B591005B539B /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 				81DEAA951F48AD33005B539B /* Model */,
 				81DEAA7E1F48A967005B539B /* AppDelegate.h */,
 				81DEAA7F1F48A967005B539B /* AppDelegate.m */,
+				81DEAAA21F48B591005B539B /* ListViewController.h */,
+				81DEAAA31F48B591005B539B /* ListViewController.m */,
 				81DEAA811F48A967005B539B /* ViewController.h */,
 				81DEAA821F48A967005B539B /* ViewController.m */,
 				81DEAA841F48A967005B539B /* Main.storyboard */,
@@ -183,6 +188,7 @@
 			files = (
 				81DEAA831F48A967005B539B /* ViewController.m in Sources */,
 				81DEAA9F1F48ADB4005B539B /* PRODUCT+CoreDataProperties.m in Sources */,
+				81DEAAA41F48B591005B539B /* ListViewController.m in Sources */,
 				81DEAA801F48A967005B539B /* AppDelegate.m in Sources */,
 				81DEAAA01F48ADB4005B539B /* PICTURE+CoreDataClass.m in Sources */,
 				81DEAA9E1F48ADB4005B539B /* PRODUCT+CoreDataClass.m in Sources */,
