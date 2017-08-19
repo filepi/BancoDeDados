@@ -12,5 +12,6 @@
 
 
 @property (strong, nonatomic) NSArray* arrayProducts;
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 @end

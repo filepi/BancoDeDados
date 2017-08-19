@@ -42,6 +42,36 @@
     return [self.arrayProducts count];
 }
 
+
+
+- (IBAction)takePicture:(id)sender {
+    UIView *view = sender;
+    
+    while (![view isKindOfClass:[UITableViewCell class]]) {
+        view = [view superview];
+    }
+    
+    NSIndexPath *indexPath = [self.tableView indexPathForCell:(UITableViewCell *)view];
+    
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Aviso" message:@"Escolha uma das opções" preferredStyle: UIAlertControllerStyleActionSheet];
+    
+    UIAlertAction *cameraAction = [UIAlertAction actionWithTitle:@"Camera" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    
+    UIAlertAction *galeriaAction = [UIAlertAction actionWithTitle:@"Galeria" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    
+    
+    [alert addAction:cameraAction];
+    [alert addAction:galeriaAction];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+}
+
+
+
 /*
 #pragma mark - Navigation
 

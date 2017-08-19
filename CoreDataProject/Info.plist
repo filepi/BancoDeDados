@@ -41,5 +41,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Libera a cam</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Manda nudes</string>
 </dict>
 </plist>
